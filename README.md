@@ -1,5 +1,7 @@
 ## Mars Rover Technical Challenge
 
+### Pair Programming + TDD
+
 The problem below requires some kind of input. You are free to implement any mechanism for feeding input into your solution (for example, using hard coded data within a unit test). You should provide sufficient evidence that your solution is complete by, as a minimum, indicating that it works correctly against the supplied test data.
 
 We highly recommend using a unit testing framework such as JUnit or NUnit. Even if you have not used it before, it is simple to learn and incredibly useful.
@@ -37,20 +39,29 @@ The output for each rover should be its final co-ordinates and heading.
 **Test Input:**
 
 5 5
+
 1 2 N
+
 LMLMLMLMM
+
 3 3 E
+
 MMRMMRMRRM
 
 **Expected Output:**
 
 1 3 N
+
 5 1 E
 
 **Thoughts**
 
 Dimensions 5, 6
+
 Coordinates x: Int y: Int
+
 Orientation Enum N S E O 
+
 Possible Movements Enum L R M
+
 Assumption: only one rover per coordinate
